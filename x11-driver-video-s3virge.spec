@@ -2,7 +2,7 @@ Name: x11-driver-video-s3virge
 Version: 1.10.1
 Release: %mkrel 1
 Summary: X.org driver for S3 Virge Cards
-Group: Development/X11
+Group: System/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-s3virge-%{version}.tar.bz2
 License: MIT
