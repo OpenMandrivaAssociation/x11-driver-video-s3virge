@@ -1,6 +1,6 @@
 Name: x11-driver-video-s3virge
 Version: 1.10.2
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: X.org driver for S3 Virge Cards
 Group: System/X11
 URL: http://xorg.freedesktop.org
