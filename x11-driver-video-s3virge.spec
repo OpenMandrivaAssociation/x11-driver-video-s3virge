@@ -21,7 +21,7 @@ x11-driver-video-s3virge is the X.org driver for S3 Virge Cards.
 %setup -qn xf86-video-s3virge
 
 %build
-+./autogen.sh
+./autogen.sh
 %configure2_5x
 %make
 
