@@ -1,7 +1,5 @@
-%define gitdate 20120324
-
 Name: x11-driver-video-s3virge
-Version: 1.10.5
+Version: 1.10.6
 Release: 1
 Summary: X.org driver for S3 Virge Cards
 Group: System/X11
