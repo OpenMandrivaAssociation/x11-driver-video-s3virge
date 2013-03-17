@@ -1,3 +1,5 @@
+%define _disable_ld_no_undefined 1
+
 Summary:	X.org driver for S3 Virge Cards
 Name:		x11-driver-video-s3virge
 Version:	1.10.6
