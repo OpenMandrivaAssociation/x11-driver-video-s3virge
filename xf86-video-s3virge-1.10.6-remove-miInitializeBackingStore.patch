@@ -1,5 +1,5 @@
 --- xf86-video-s3virge-1.10.6/src/s3v_driver.c~	2012-07-17 06:48:46.000000000 +0200
-+++ xf86-video-s3virge-1.10.6/src/s3v_driver.c	2013-04-06 02:45:11.783688673 +0200
++++ xf86-video-s3virge-1.10.6/src/s3v_driver.c	2013-04-06 03:15:55.651946578 +0200
 @@ -2420,7 +2420,6 @@ S3VScreenInit(SCREEN_INIT_ARGS_DECL)
          return FALSE;
    }
