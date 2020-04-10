@@ -1,0 +1,14 @@
+diff -up xf86-video-s3virge-1.11.0/src/s3v_driver.c.omv~ xf86-video-s3virge-1.11.0/src/s3v_driver.c
+--- xf86-video-s3virge-1.11.0/src/s3v_driver.c.omv~	2020-04-11 00:24:28.545845495 +0200
++++ xf86-video-s3virge-1.11.0/src/s3v_driver.c	2020-04-11 00:24:59.313188990 +0200
+@@ -1210,8 +1210,8 @@ S3VPreInit(ScrnInfoPtr pScrn, int flags)
+     /* todo -  The virge limit is 2048 vertical & horizontal */
+     /* pixels, not clock register settings. */
+ 			 	/* true for all ViRGE? */
+-  pScrn->maxHValue = 2048;
+-  pScrn->maxVValue = 2048;
++  pScrn->virtualX = 2048;
++  pScrn->virtualY = 2048;
+ 
+     				/* Lower depths default to config file */
+   pScrn->virtualX = pScrn->display->virtualX;

@@ -2,12 +2,13 @@
 
 Summary:	X.org driver for S3 Virge Cards
 Name:		x11-driver-video-s3virge
-Version:	1.10.7
+Version:	1.11.0
 Release:	1
 Group:		System/X11
 License:	MIT
 Url:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-s3virge-%{version}.tar.gz
+Patch0:		s3virge-1.11.0-compile.patch
 
 BuildRequires:	pkgconfig(xorg-macros)
 BuildRequires:	pkgconfig(xorg-server)
@@ -18,15 +19,14 @@ Requires:	x11-server-common %(xserver-sdk-abi-requires videodrv)
 x11-driver-video-s3virge is the X.org driver for S3 Virge Cards.
 
 %prep
-%setup -qn xf86-video-s3virge-%{version}
-%autopatch -p1
+%autosetup -p1 -n xf86-video-s3virge-%{version}
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc COPYING
