@@ -6,7 +6,7 @@ Version:	1.11.0
 Release:	1
 Group:		System/X11
 License:	MIT
-Url:		http://xorg.freedesktop.org
+Url:		https://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-s3virge-%{version}.tar.gz
 Patch0:		s3virge-1.11.0-compile.patch
 
